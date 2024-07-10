@@ -197,24 +197,69 @@
 /* feedback section */
 .support{
   border: 2px solid green; 
-  display: flex;
-  justify-content: center;
+  /* padding: 64px; */
+  
+  /* justify-content: center; */
   width:1140px ;
   height: 314px;
   padding: 64px 48px;
   background-image: url(../assets/handshake.jpg);
   background-position: cover;
   background-repeat: no-repeat;
-  align-items: center;
   border-radius: 10px;
+  gap: 24px;
+}
+.support-text{
+  width: 1044px;
+  height: 187px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .support h3{
   color: white;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
 .support p{
   color: white;
+  text-align: center;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+
 }
 .support input {
   background-color: aliceblue;
   color: black;
+  width: 508px;
+  height: 19px;
+  padding: 20px;
+  margin: 1px;
+  text-align: center;
+  border-radius: 10px; 
+  margin-bottom: 0;
+}
+.sopport-submit{
+  width: 120px;
+  height: 58px;
+  padding: 17px 20px;
+  margin: 16px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  /* text-align: center; */
+  text-decoration: none;
+  margin-bottom: 0 ;
+}
+.footer{
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  padding: 32px 150px;
+  
 }
