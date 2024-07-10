@@ -22,6 +22,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 48px;
 }
 .banner-heading{
   /* display: flex; */
@@ -55,7 +56,7 @@
 /* hero/banner section ends */
 /* why I am here! section */
 .description{
-  margin: 0 auto;
+  margin: 0 auto ;
   /* border: 2px solid blueviolet; */
   width: 1140px;
   height: 1395px;
@@ -69,42 +70,38 @@
 
 
 }
-.description-div1{
+.description-heading{
   padding-left:47px ;
   padding-right: 47px ;
   text-align: center;
   /* gap:24px; */
   /* border: 2px slid red; */
 }
-.description-div1 h2{
+.description-heading h2{
   color: rgb(13, 19, 33);
   font-size: 32px;
   font-weight: 800;
 }
-{
+.description-heading p{
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
   text-align: center;
 }
-.description-div2{
+.description-section-1{
   border-radius: 16px;
   /* border: 2px solid blue; */
   background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-  /* Frame 8 */
-  /* position: static; */
   width: 946px;
-  /* height: 288px; */
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 48px;
-  gap: 98.83px;
+  /* padding: 48px; */
+  gap: 150.83px;
 }
-.description-div2 .div2-text{
-  width: 477px;
+.description-section-1 .div2-text{
+  /* width: 477px; */
   height: 180px;
   /* Auto layout */
   display: flex;
@@ -116,7 +113,7 @@
   /* margin: 0 auto; */
 
 }
-.div2-text h3{
+.description-section-1-text h3{
   color: rgba(13, 19, 33, 0.7);
   /* font-family: Azeret Mono; */
   font-size: 20px;
@@ -124,14 +121,40 @@
   text-align: left;
   /* margin-bottom: 16px; */
 }
-.div2-text a{
+.description-section-1-text a{
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
   /* text-align: center; */
 }
-.description-div2 .div2-img{
+.description-section-1-img{
   align-items: center;
   /* margin-top:32px ; */
   
+}
+/* description section 1 done */
+/* description section 2 starts */
+.description-section-2{
+  display: grid;
+
+}
+/* description-section-2 ends */
+.description-section-3{
+  display: grid;
+}
+.video-link{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  width: 980px;
+  padding: 16px;
+}
+.video-link .video{
+  /* height: 200px;
+  width: 200px; */
+  margin: 32px;
+  padding: 16px;
 }
